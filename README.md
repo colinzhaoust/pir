@@ -1,6 +1,8 @@
 # Beyond Relevance: Evaluate and Improve Retrievers on Perspective Awareness
 This is the github repo for our ArXiv paper "Beyond Relevance: Evaluate and Improve Retrievers on Perspective Awareness".
 
+In this paper, we  propose a novel retrieval benchmark, PIR, to study if and how current retrievers can handle nuanced perspective changes in user queries from real-world scenarios. For example, when asked to verify a claim, a retrieval system is expected to identify evidence from both supporting vs. contradicting perspectives, for the downstream system to make a fair judgment call.
+
 ## Data Format
 Check our dataset format in mini-datasets at **./demo_pir_dataset** for a demo version of all the tasks included in our experiments. Do send an email for the full-size datasets.
 
@@ -14,7 +16,7 @@ Check our dataset format in mini-datasets at **./demo_pir_dataset** for a demo v
 
         key_ref: a map from the query number (string) to the retrieval target index in the corpus
 
-        query_labels: a list of labels showing the query characteristics, for evaluation purpose
+        query_labels: a list of labels showing the query characteristics, for evaluation purposes
 
         corpus: a list a the retrieval targets
         
