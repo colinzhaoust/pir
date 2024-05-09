@@ -20,7 +20,7 @@ Check our dataset format in mini-datasets at **./demo_pir_dataset** for a demo v
 
         query_labels: a list of labels showing the query characteristics, for evaluation purposes
 
-        corpus: a list a the retrieval targets
+        corpus: a list of the retrieval targets
         
 
 ## Experiments
