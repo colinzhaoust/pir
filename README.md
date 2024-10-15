@@ -5,7 +5,7 @@ In this paper, we  propose a novel retrieval benchmark, PIR, to study if and how
 
 Along with the dataset, we propose PAP as a simple and effective method to improve the perspective awareness of current retrievers with minimum change in the retrieval pipeline.
 
-## Data Format
+## Demo Data Format
 Check our dataset format in mini-datasets at **./demo_pir_dataset** for a demo version of all the tasks included in our experiments. Do send an email for the full-size datasets.
 
     tasks: a string indicating which task the retrieval data belongs to (perspectrum, agnews, story, ambigqa, allsides, exfever). 
@@ -23,13 +23,14 @@ Check our dataset format in mini-datasets at **./demo_pir_dataset** for a demo v
         corpus: a list of the retrieval targets
         
 
+## Dataset
+Check our updated dataset at Hugging Face with another round of manual filtering: https://huggingface.co/trumancai/perspective-information-retrieval-{dataset} 
+
+dataset = story, perspectrum, exfever, ambigqa, agnews, allsides
+
 ## Experiments
 
 We provide the code for the main experiments in **./demo.ipynb**. You can run the Jupyter Notebook to replicate our experiments with various retrievers and our projection-based methods.
-
-## Experiments
-
-todo: update Python package, teaser figure
 
 ## Others
 If you have any other questions about this repo, you are welcome to open an issue or send me an [email](mailto:xinranz3@andrew.cmu.edu), I will respond to that as soon as possible.
