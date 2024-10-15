@@ -24,7 +24,7 @@ Check our dataset format in mini-datasets at **./demo_pir_dataset** for a demo v
         
 
 ## Dataset
-Check our updated dataset at Hugging Face with another round of manual filtering: https://huggingface.co/trumancai/perspective-information-retrieval-{dataset} 
+Check our updated dataset at Hugging Face with another round of manual filtering: https://huggingface.co/trumancai/ + perspective-information-retrieval-{dataset} 
 
 dataset = story, perspectrum, exfever, ambigqa, agnews, allsides
 
