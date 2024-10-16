@@ -1,5 +1,5 @@
 # Beyond Relevance: Evaluate and Improve Retrievers on Perspective Awareness
-This is the github repo for our COLM 2024 paper "Beyond Relevance: Evaluate and Improve Retrievers on Perspective Awareness" ([Link](https://arxiv.org/abs/2405.02714)).
+This is the github repo for our COLM 2024 paper "Beyond Relevance: Evaluate and Improve Retrievers on Perspective Awareness" ([Link](https://openreview.net/forum?id=7VPKtz8CHN#discussion)).
 
 In this paper, we  propose a novel retrieval benchmark, PIR, to study if and how current retrievers can handle nuanced perspective changes in user queries from real-world scenarios. For example, when asked to verify a claim, a retrieval system is expected to identify evidence from both supporting vs. contradicting perspectives, for the downstream system to make a fair judgment call.
 
