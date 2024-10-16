@@ -28,6 +28,8 @@ Check our updated dataset at Hugging Face with another round of manual filtering
 
 dataset = story, perspectrum, exfever, ambigqa, agnews, allsides
 
+You can check **./process_hugginface_version.py** to process and experiment with the hugginface version.
+
 ## Experiments
 
 We provide the code for the main experiments in **./demo.ipynb**. You can run the Jupyter Notebook to replicate our experiments with various retrievers and our projection-based methods.
