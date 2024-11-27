@@ -30,6 +30,8 @@ dataset = story, perspectrum, exfever, ambigqa, agnews, allsides
 
 You can check **./process_hugginface_version.py** to process and experiment with the hugginface version.
 
+We sincerely acknowledge [Haoyang Wen](https://www.haoyangwen.com/) for further advice: (1) some questions in the AGNews dataset are hard for humans; (2) some corpus entries in the AmbigQA dataset are too short to provide full information. The authors will work on fixing these issues soon. Please contact the authors if there are any further suggestions.
+
 ## Experiments
 
 We provide the code for the main experiments in **./demo.ipynb**. You can run the Jupyter Notebook to replicate our experiments with various retrievers and our projection-based methods.
