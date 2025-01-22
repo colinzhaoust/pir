@@ -30,7 +30,9 @@ dataset = story, perspectrum, exfever, ambigqa, agnews, allsides
 
 You can check **./process_hugginface_version.py** to process and experiment with the hugginface version.
 
-We sincerely acknowledge [Haoyang Wen](https://www.haoyangwen.com/) for further advice: (1) some questions in the AGNews dataset are hard for humans; (2) some corpus entries in the AmbigQA dataset are too short to provide full information. The authors will work on fixing these issues soon. Please contact the authors if there are any further suggestions.
+Welcome to send the author an [email](mailto:xinranz3@andrew.cmu.edu) for the performance of state-of-the-art retrievers or further discussion.
+
+We sincerely acknowledge [Haoyang Wen](https://www.haoyangwen.com/), [Hanjun Dai](https://hanjun-dai.github.io/), and [Fengyu Cai](https://trumancfy.github.io/personal-site/) for further advice: (1) some questions in the AGNews dataset are hard for humans; (2) some corpus entries in the AmbigQA dataset are too short to provide full information. 
 
 ## Experiments
 
