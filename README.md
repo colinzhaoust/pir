@@ -6,7 +6,7 @@ In this paper, we  propose a novel retrieval benchmark, PIR, to study if and how
 Along with the dataset, we propose PAP as a simple and effective method to improve the perspective awareness of current retrievers with minimum change in the retrieval pipeline.
 
 ## Demo Data Format
-Check our dataset format in mini-datasets at **./demo_pir_dataset** for a demo version of all the tasks included in our experiments. Do send an email for the full-size datasets.
+Check our dataset format in mini-datasets at **./demo_pir_dataset** for a demo version of all the tasks included in our experiments. Do send an email if you want to replicate the full analysis in the paper. For the full-sized dataset, check the Hugginface version described in the next paragraph.
 
     tasks: a string indicating which task the retrieval data belongs to (perspectrum, agnews, story, ambigqa, allsides, exfever). 
     
@@ -29,6 +29,8 @@ Check our updated dataset at Hugging Face with another round of manual filtering
 dataset = story, perspectrum, exfever, ambigqa, agnews, allsides
 
 You can check **./process_hugginface_version.py** to process and experiment with the hugginface version.
+
+For the performance of various cutting-edge retrievers (e.g., RepLlama, Gecko, GritLM, Promptriever, and Voyage AI Embeddings) on the Hugginface version of PIR, please check the benchmarking results [here](https://docs.google.com/presentation/d/1lIGRf8--JRTwaaO5KFJ_-Joe4RjYToy2vP7290uozAQ/edit?usp=sharing).
 
 Welcome to send the author an [email](mailto:xinranz3@andrew.cmu.edu) for the performance of state-of-the-art retrievers or further discussion.
 
